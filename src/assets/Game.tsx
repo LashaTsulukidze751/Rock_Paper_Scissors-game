@@ -62,7 +62,7 @@ function Game() {
           >
             <img
               className="w-14 h-14 lg:w-16 lg:h-16"
-              src={`src/assets/images/${randomAiIcon}.png`}
+              src={`./images/${randomAiIcon}.png`}
               alt=""
             />
           </button>
@@ -87,7 +87,7 @@ function Game() {
             </h4>
             {computerOption && (
               <img
-                src={`./images/${computerOption}.png`}
+                src={`./src/assets/images/${computerOption}.png`}
                 alt=""
                 className="w-20 h-20 "
               />
@@ -107,7 +107,7 @@ function Game() {
             </h4>
             {userOption && (
               <img
-                src={`./images/${userOption}.png`}
+                src={`./src/assets/images/${userOption}.png`}
                 alt=""
                 className="w-20 h-20 "
               />
@@ -126,7 +126,7 @@ function Game() {
           >
             <img
               className="w-14 h-14 lg:w-16 lg:h-16"
-              src="src/assets/images/rock.png"
+              src="./src/assets/images/rock.png"
               alt=""
             />
           </button>
@@ -137,7 +137,7 @@ function Game() {
           >
             <img
               className="w-14 h-14 lg:w-16 lg:h-16"
-              src="src/assets/images/scissors.png"
+              src="./src/assets/images/scissors.png"
               alt=""
             />
           </button>
@@ -148,7 +148,7 @@ function Game() {
           >
             <img
               className="w-14 h-14 lg:w-16 lg:h-16"
-              src="src/assets/images/paper.png"
+              src="./src/assets/images/paper.png"
               alt=""
             />
           </button>

@@ -87,7 +87,7 @@ function Game() {
             </h4>
             {computerOption && (
               <img
-                src={`src/assets/images/${computerOption}.png`}
+                src={`./images/${computerOption}.png`}
                 alt=""
                 className="w-20 h-20 "
               />
@@ -107,7 +107,7 @@ function Game() {
             </h4>
             {userOption && (
               <img
-                src={`src/assets/images/${userOption}.png`}
+                src={`./images/${userOption}.png`}
                 alt=""
                 className="w-20 h-20 "
               />
